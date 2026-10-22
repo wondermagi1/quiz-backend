@@ -8,8 +8,7 @@
         <el-menu default-active="$route.path" router unique-opened>
           <el-submenu index="1">
             <template slot="title">
-              <i class="el-icon-message"></i>
-              <span>系统信息管理</span>
+              <span>管理选项</span>
             </template>
             <el-menu-item index="/user">用户管理</el-menu-item>
             <el-menu-item index="/quiz">题目管理</el-menu-item>

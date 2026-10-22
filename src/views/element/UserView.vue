@@ -3,8 +3,8 @@
     <div style="margin-bottom:20px;">
       <span>用户名</span>
       <el-input v-model="searchName" placeholder="用户名" style="width:200px;margin:0 10px;"></el-input>
-      <el-button type="success" @click="handleSearch">查询用户</el-button>
-      <el-button type="success" style="background:#2c6b2f;border-color:#2c6b2f;" @click="dialogVisible = true">添加用户</el-button>
+      <el-button type="primary" @click="handleSearch">查询用户</el-button>
+      <el-button type="success" @click="dialogVisible = true">添加用户</el-button>
     </div>
 
     <el-table :data="tableData" border style="width:100%">
